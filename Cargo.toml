@@ -1,10 +1,14 @@
 [package]
-name = "sigmaos_ar"
+name = "SigmaOS-ar"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "SigmaOS ar component inspired by Linux Mint / Omarchy / Arch Linux."
+license = "Apache-2.0"
+description = "SigmaOS sigmaos-ar component"
 
 [lib]
 name = "sigmaos_ar"
 path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

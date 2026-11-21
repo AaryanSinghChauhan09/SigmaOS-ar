@@ -1,9 +1,9 @@
 # SigmaOS-ar
 
-No GitHub description is set; component scope remains unclassified.
+Audio recorder for SigmaOS inspired by SigmaOS Linux
 
-- **Category:** Compilers
-- **Engine:** compiler_toolchain
+- **Category:** Utilities
+- **Engine:** audio_recorder
 - **Language:** Rust
 
 ## Build & Test
